@@ -17,6 +17,8 @@
 		811A33452206419A00140199 /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811A33442206419A00140199 /* FlickrAPI.swift */; };
 		811A334722064E9D00140199 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811A334622064E9D00140199 /* PhotoStore.swift */; };
 		811A3349220664A500140199 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811A3348220664A500140199 /* Photo.swift */; };
+		818B69142207B340002EB185 /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818B69132207B340002EB185 /* PhotoDataSource.swift */; };
+		818B69162207BA90002EB185 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818B69152207BA90002EB185 /* PhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		811A33442206419A00140199 /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
 		811A334622064E9D00140199 /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
 		811A3348220664A500140199 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		818B69132207B340002EB185 /* PhotoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
+		818B69152207BA90002EB185 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				811A33442206419A00140199 /* FlickrAPI.swift */,
 				811A334622064E9D00140199 /* PhotoStore.swift */,
 				811A3348220664A500140199 /* Photo.swift */,
+				818B69132207B340002EB185 /* PhotoDataSource.swift */,
+				818B69152207BA90002EB185 /* PhotoCollectionViewCell.swift */,
 			);
 			path = Photorama;
 			sourceTree = "<group>";
@@ -268,6 +274,8 @@
 				811A33452206419A00140199 /* FlickrAPI.swift in Sources */,
 				811A331522063A4200140199 /* AppDelegate.swift in Sources */,
 				811A334722064E9D00140199 /* PhotoStore.swift in Sources */,
+				818B69142207B340002EB185 /* PhotoDataSource.swift in Sources */,
+				818B69162207BA90002EB185 /* PhotoCollectionViewCell.swift in Sources */,
 				811A334322063B2800140199 /* PhotosViewController.swift in Sources */,
 				811A3349220664A500140199 /* Photo.swift in Sources */,
 			);

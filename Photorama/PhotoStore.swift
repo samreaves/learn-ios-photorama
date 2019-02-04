@@ -84,6 +84,10 @@ class PhotoStore {
                     print(headers)
                 }
             
+                if let annoyingError = error {
+                    print(error)
+                }
+            
                 let result = self.processImageRequest(data: data, error: error)
                 OperationQueue.main.addOperation {
                     completion(result)

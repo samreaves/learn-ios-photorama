@@ -17,9 +17,9 @@ struct FlickrAPI {
     enum Method: String {
         case interestingPhotos = "flickr.interestingness.getList"
     }
-    
+
     private static let baseURLString = "https://api.flickr.com/services/rest"
-    private static let apiKey = "08b4104b06917923c90be54ef77969fa"
+    private static let apiKey = "71ab180648135ee063615d56a1e4cf34"
     
     private static let dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
